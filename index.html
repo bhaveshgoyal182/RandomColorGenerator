@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Random Color Generator | by dev.bhau </title>
+
+    <!-- bootstrap scripts -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- fontawesome scripts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🎨</text></svg>">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card text-center">
+            <div class="card-header">
+                Random Color Generator
+            </div>
+            <div class="card-body">
+                <div class="form-input">
+                    <input type="text"  id="color-input" placeholder="Enter the number of colors you want.">
+                    <button type="button" title="Copy to clipboard" class="clipboard"><i
+                            class="fas fa-clipboard-check fa-2x"></i></button>
+                </div>
+                <div class="buttons">
+                    <button class="btn btn-success generate">Generate</button>
+                    <button class="btn btn-danger clear">Clear</button>
+                </div>
+                <p class="clip-alert alert-primary"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
